@@ -15,7 +15,7 @@ Please gladly submit a PR; for that specific platform; thanks 💖
 
 ## Important
 
-I highly recommend watching [this video](https://youtu.be/7Zz3nUI7pVs); it's hard to explain in text form.
+I highly recommend watching [this video](https://youtu.be/usjic7nK_as); it's hard to explain in text form.
 
 
 ## Alert
@@ -27,5 +27,3 @@ Change `Discord.exe` to the version, you're using.
 I'll eventually make this automated.
 
 and, also - copy the program path, without the quotations into `Start in`.
-
-You could watch **[this update video](https://www.youtube.com/watch?v=WuH3hIIT7DE)**, which covers this alert section 😉
