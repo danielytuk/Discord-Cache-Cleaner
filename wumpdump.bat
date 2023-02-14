@@ -21,28 +21,28 @@ cd ../ && echo "Please wait... copying and recovering files"
 if exist "%appdata%\discord" (
     mkdir stable && copy "%appdata%\discord\cache\f_*" "%cd%\stable\"
     start "" "%cd%\deps\quiet.exe" "%cd%\deps\trid.exe" "%cd%\stable\*.*" -ce >nul
-    cls && ForFiles /p "%AppData%\discord\Cache" /s /M f_* /d -2 /c "cmd /c del /q @file"
+    cls && ForFiles /p "%AppData%\discord\Cache" /s /M * /d -2 /c "cmd /c del /q @file" && ForFiles /p "%AppData%\discord\Code Cache" /s /M * /d -2 /c "cmd /c del /q @file" && ForFiles /p "%AppData%\discord\GPUCache" /s /M * /d -2 /c "cmd /c del /q @file"
     echo "Deleted cache files older than 2 days for Discord Stable."
 )
 
 if exist "%appdata%\discordptb" (
     mkdir ptb && copy "%appdata%\discordptb\cache\f_*" "%cd%\ptb\"
     start "" "%cd%\deps\quiet.exe" "%cd%\deps\trid.exe" "%cd%\stable\*.*" -ce >nul
-    cls && ForFiles /p "%AppData%\discordptb\Cache" /s /M f_* /d -2 /c "cmd /c del /q @file"
+    cls && ForFiles /p "%AppData%\discordptb\Cache" /s /M * /d -2 /c "cmd /c del /q @file" && ForFiles /p "%AppData%\discordptb\Code Cache" /s /M * /d -2 /c "cmd /c del /q @file" && ForFiles /p "%AppData%\discordptb\GPUCache" /s /M * /d -2 /c "cmd /c del /q @file"
     echo "Deleted cache files older than 2 days for Discord PTB."
 )
 
 if exist "%appdata%\discordcanary" (
     mkdir canary && copy "%appdata%\discordcanary\cache\f_*" "%cd%\canary\"
     start "" "%cd%\deps\quiet.exe" "%cd%\deps\trid.exe" "%cd%\stable\*.*" -ce >nul
-    cls && ForFiles /p "%AppData%\discordcanary\Cache" /s /M f_* /d -2 /c "cmd /c del /q @file"
+    cls && ForFiles /p "%AppData%\discordcanary\Cache" /s /M * /d -2 /c "cmd /c del /q @file" && ForFiles /p "%AppData%\discordcanary\Code Cache" /s /M * /d -2 /c "cmd /c del /q @file" && ForFiles /p "%AppData%\discordcanary\GPUCache" /s /M * /d -2 /c "cmd /c del /q @file"
     echo "Deleted cache files older than 2 days for Discord Canary."
 )
 
 if exist "%appdata%\discorddevelopment" (
     mkdir dev && copy "%appdata%\discorddevelopment\cache\f_*" "%cd%\dev\"
     start "" "%cd%\deps\quiet.exe" "%cd%\deps\trid.exe" "%cd%\stable\*.*" -ce >nul
-    cls && ForFiles /p "%AppData%\discorddevelopment\Cache" /s /M f_* /d -2 /c "cmd /c del /q @file"
+    cls && ForFiles /p "%AppData%\discorddevelopment\Cache" /s /M * /d -2 /c "cmd /c del /q @file" && ForFiles /p "%AppData%\discorddevelopment\Code Cache" /s /M * /d -2 /c "cmd /c del /q @file" && ForFiles /p "%AppData%\discorddevelopment\GPUCache" /s /M * /d -2 /c "cmd /c del /q @file"
     echo "Deleted cache files older than 2 days for Discord Development."
 )
 
