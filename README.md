@@ -21,8 +21,8 @@ Discord stores **every, single, image** you view onto your hard drive; and this 
 You may of noticed the Windows word; well, sadly, I have no experience with other platforms.<br />Please gladly submit a PR; for that specific platform; thanks 💖
 
 ### Installation
-
-Installation is as simple as, downloading and running 😉
+- [Click Here](https://cdn.statically.io/gh/danielytuk/Discord-Cache-Cleaner/main/wumpdump.bat) to download the bat file.
+- Run the bat file 😉
 
 ## Features
 
