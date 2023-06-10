@@ -1,6 +1,6 @@
 <br />
 <div align="center">
-    <img src="https://github.com/danielytuk/Discord-Cache-Cleaner/blob/main/dcc-wordmark.png?raw=true" alt="wumpdump" width="50%">
+    <img src="https://cdn.jsdelivr.net/gh/danielytuk/discord-cache-cleaner@1.0.2/dcc-wordmark.png" alt="wumpdump" width="50%">
 
   <h3 align="center">Wumpdump<br />formerly; Discord Cache Cleaner</h3>
   
